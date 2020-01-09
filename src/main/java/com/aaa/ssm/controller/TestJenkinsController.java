@@ -25,7 +25,7 @@ public class TestJenkinsController {
     public Object printInfo(){
         Map map =new HashMap();
         map.put("code",200);
-        map.put("message","success");
+        map.put("message","success111");
         map.put("jenkins","CI SoftWare");
         return map;
     }
